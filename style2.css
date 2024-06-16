@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+
+}
+
+.background{
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url(fundo-gradiente-preto-com-cubos_23-2149177090.avif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+body{
+    margin: 0; /* Remova as margens padrão */
+    padding: 0; /* Remova o preenchimento padrão */
+    background-image: url(fundo-gradiente-preto-com-cubos_23-2149177090.avif); /* URL da sua imagem de fundo */
+    background-size: cover; /* Cobrir todo o tamanho do corpo */
+    background-position: center; /* Centralizar a imagem de fundo */
+    background-repeat: no-repeat;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.cabecalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    
+
+}
+
+.cabecalho-link a{
+    color: white;
+    font-size: 12px;
+
+
+}
+
+.cabecalho-link a:hover{
+    color: #55378f;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #55378f;
+    color: #55378f;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+button{
+    color: #55378f;
+    background: transparent;
+    border:solid 1px #55378f;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #55378f;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+
+h2.titulo{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+h2.titulo span{
+    color: #55378f;
+
+}
+section.especialidades{
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: white;
+    padding: 20px;
+    border: 2px solid ;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: .2s;
+
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff60;
+
+}
+
+.especialidades .especialidades-box i {
+    font-size: 60px;
+    color: #55378f;
+
+
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px;
+}
+
+
+.flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around ;
+    
+}
+
+

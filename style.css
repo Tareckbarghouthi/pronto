@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Ajuste este valor para o quanto você quer que a imagem suba */
+    }
+}
+
+.imagem-animada {
+    animation: moveUpDown 6s ease-in-out infinite; /* Ajuste a duração conforme necessário */
+}
+
+.imagem-com-brilho {
+    box-shadow: 0 0 10px #55378f; /* Este é um amarelo brilhante, ajuste a cor conforme desejado */
+}
+
+
+
+
+
+:root{
+    --color-neutral-0:#55378f;
+    --control-neutral-10:#171717;
+    --control-neutral-30:#a8a29e;
+    --control-neutral-40:#f5f5f5;
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+
+}
+
+body{
+    margin: 0; /* Remova as margens padrão */
+    padding: 0; /* Remova o preenchimento padrão */
+    background-image: url(fundo-gradiente-preto-com-cubos_23-2149177090.avif); /* URL da sua imagem de fundo */
+    background-size: cover; /* Cobrir todo o tamanho do corpo */
+    background-position: center; /* Centralizar a imagem de fundo */
+    background-repeat: no-repeat;
+
+}
+
+.background{
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url(fundo-gradiente-preto-com-cubos_23-2149177090.avif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.cabecalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    
+
+}
+
+.cabecalho-link a{
+    color: white;
+    font-size: 12px;
+
+
+}
+
+.cabecalho-link a:hover{
+    color: #55378f;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #55378f;
+    color: #55378f;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+button{
+    color: #55378f;
+    background: transparent;
+    border:solid 1px #55378f;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #55378f;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+
+
+.container-text{
+    padding: 150px 130px;
+    display: flex;
+}
+
+.text h3{
+    color: white;
+    font-size: 15px;
+}
+
+
+.text h1{
+    color: white;
+    margin-top: 10px;
+
+}
+
+.text span{
+
+    color: #55378f;
+}
+
+
+.text p{
+
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+.redes-sociais a{
+color: #55378f;
+padding: 10px;
+margin-top: 5px;   
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+
+
+.redes-sociais:hover{
+    transition: 0.3s;
+    color: #55378f;
+}
+
+
+.redes-sociais a {
+    font-size: 24px; 
+    transition: transform 0.2s; 
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.2); 
+}
+
+
+
+.sobre-mim h1 {
+    color: #55378f;
+}
+
+.sobre-mim p {
+    color: white;
+    font-size: 15px;
+}
+
+
+footer {
+    width: 100%; /* Alterado para ocupar toda a largura da tela */
+    color: var(--control-neutral-40);
+    position: absolute;
+    bottom: 20px;
+}
+
+.sobre-mim{
+    margin: 30px;
+    padding:px 1px 1px 0;}
+
+
+    
+img{
+     width:215px;
+     height:350px;
+     margin:1300px;
+    margin-top:10px ;
+     position: absolute;
+       border-radius: 50%;
+    
+}
+
+
+.purple-border{
+    padding: 10px;
+    border: 5px #55378f;
+
+}
+.text{
+    display:inline-block
+}
+
+.hobbies p{
+    color: white;
+    font-size: 15px;
+}
+
+
+.hobbies{
+    margin: 30px;
+
+
+}
+
+.hobbies h1{
+    color: #55378f;
+    padding:50px 50px 1px 0;}
